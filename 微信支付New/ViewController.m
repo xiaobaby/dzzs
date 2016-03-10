@@ -20,6 +20,10 @@
     UIButton *b = [[UIButton alloc]initWithFrame:CGRectMake(30, 100, 100, 30)];
     
     b.backgroundColor = [UIColor redColor];
+    
+    
+    
+    ///shshuigduegdui
     [b addTarget:self action:@selector(pay) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:b];
 }
