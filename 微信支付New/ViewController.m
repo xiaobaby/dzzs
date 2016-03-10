@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     UIButton *b = [[UIButton alloc]initWithFrame:CGRectMake(30, 100, 100, 30)];
+    
     b.backgroundColor = [UIColor redColor];
     [b addTarget:self action:@selector(pay) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:b];
