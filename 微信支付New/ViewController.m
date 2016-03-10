@@ -22,7 +22,7 @@
     b.backgroundColor = [UIColor redColor];
     
     
-    
+    //me
     ///shshuigduegdui
     [b addTarget:self action:@selector(pay) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:b];
